@@ -5,6 +5,15 @@
 # Name: Ethan Behl
 # Description: Text-based RPG
 
+#Main functionalities
+  #Menu system
+  #Inventory
+  #Game mechanics
+  #
+  #
+  #
+#Gameplay
+  #Rooms
 
 
 
