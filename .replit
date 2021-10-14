@@ -1,0 +1,2 @@
+language = "bash"
+run = "python RPG1_Inventory.py"
