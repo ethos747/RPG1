@@ -1,2 +1,2 @@
-language = "bash"
-run = "python RPG1_Inventory.py"
+language = "python3"
+run = "python RPG.py"
