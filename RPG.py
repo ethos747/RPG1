@@ -4,12 +4,17 @@
 # Date last modified: 10/20/2021
 # Name: Ethan Behl
 # Description: Text-based RPG main code area
-# imports
-import sys
-import Map
-import Character_selection
-import Text
-import Inventory
+# imports, game quits if imports are imported incorrectly
+try:
+    import sys
+    import Map
+    import Character_selection
+    import Text
+    import Inventory
+except ModuleNotFoundError:
+    print("Error, a module was imported incorrectly.")
+    print("Game ended.")
+    sys.exit()
 
 # Other file operations
 Text.text_intro()
@@ -25,7 +30,7 @@ menu_list = ("""[1] Interact
 [5] Quit""")
 # Loops the menu
 while True:
-    menuu = str(input(menu_list))
+    menuu = str(input("\n" + menu_list + "\n"))
     # Various options based on the response
     if menuu == "1":
         # Interact options menu for the current room example

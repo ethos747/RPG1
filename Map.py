@@ -4,8 +4,13 @@
 # Date last modified: 10/20/2021
 # Name: Ethan Behl
 # Description: Text-based RPG Map
-# Imports
-from tabulate import tabulate
+# Imports, game quits if imports are imported incorrectly
+try:
+    from tabulate import tabulate
+except ModuleNotFoundError:
+    print("Error, a module was imported incorrectly.")
+    print("Game ended.")
+    sys.exit()
 
 # Descriptions of possible room types
 map_rooms = {
