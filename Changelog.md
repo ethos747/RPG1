@@ -1,4 +1,9 @@
 # Change Log
+## 11/25/2021
+- Modified all files
+- Deleted several files
+- Finalized code for final version of project
+- Developed import handling, classes and input functions
 ## 10/27/2021
 - Modified code all files
 ## 10/19/2021
