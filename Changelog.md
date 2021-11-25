@@ -1,4 +1,6 @@
 # Change Log
+## 10/27/2021
+- Modified code all files
 ## 10/19/2021
 - Renamed multiple files
 - Added Inventory.py
